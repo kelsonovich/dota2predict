@@ -1,0 +1,19 @@
+{
+    "name": "kelsonovich/dota2_predict",
+    "autoload": {
+        "psr-4": {
+            "Dota2Predict\\Parsing\\": "src/Parsing/",
+            "Dota2Predict\\Predict\\": "src/Predict/",
+            "Dota2Predict\\Notification\\": "src/Notification/"
+        }
+    },
+    "require": {
+        "voku/simple_html_dom": "^4.7"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Youpie/simple-html-dom"
+        }
+    ]
+}
